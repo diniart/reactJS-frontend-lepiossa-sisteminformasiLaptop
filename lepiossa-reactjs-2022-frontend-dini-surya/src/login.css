@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 200vh;
+    background-image:url(https://pressstart.vip/images/uploads/assets/foggy.png );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.containerL{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 400px;
+    height: 300 px;
+
+    background-color: rgba(0,0,0,.7);
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+}
+.containerL h1{
+    text-align: left;
+    color: #fafafa;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #2979ff;
+}
+.containerL label{
+    text-align: left;
+    color: #90caf9;
+}
+.containerL form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #2979ff;
+    color: #fff;
+    font-size: 13px;
+}
+.containerL form button{
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 50%;
+    padding: 5px 0;
+    border-radius: 15px;
+    background-color:#2979ff;
+    font-size: 18px;
+    color: #fafafa;
+}
